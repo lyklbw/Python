@@ -6,8 +6,11 @@ with open('pi_digits.txt') as file_object:
 #逐行读取
 filename='pi_digits.txt'
 with open(filename) as file_object:
-    for line in file_object:
-        print(line)#print(line.rstrip()) 消除多余的空白行
-#创建一个包含文件各行内容的列表
-with open(filename) as file_object
+	for line in file_object:
+		print(line.rstrip())
+#删除空白行，rstrip删除tab space etc
+print("创建一个包含文件各行内容的列表")
+with open(filename) as file_object:
 	lines=file_object.readlines()#从文件中读取一行,在with代码块之外 依旧就可以使用
+for line in lines:
+	print(line.rstrip())
