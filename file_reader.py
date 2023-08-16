@@ -1,6 +1,6 @@
 #写一个open就可以了，python会自己判断close的时机
 #文件读取
-with open('pi_digits.txt') as file_object:
+with open('.\\pi_digits.txt') as file_object:
 	contents = file_object.read()
 	print(contents)
 #逐行读取
