@@ -2,14 +2,6 @@ import unittest
 from survey import AnonymousSurvey
 
 class TestAnonymousSurvey(unittest.TestCase):
-    #setUp()方法，创建一个调查对象和一组答案，供使用的测试方法使用
-
-    """def setUp(self):
-           创建一个调查对象和一组答案，供使用的测试方法使用
-        question = "What language did you first learn to speak?"
-        self.my_survey = AnonymousSurvey(question)#创建一个调查对象 
-        self.responses = ["English","Spanish","Mandarin"]#创建一组答案
-    """
     def test_store_single_response(self):
         """测试单个答案能否会被妥善地存储"""
         question = "What language did you first learn to speak?"
