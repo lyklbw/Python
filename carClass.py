@@ -3,7 +3,7 @@ class Car():
 		self.name=name
 		self.age=age
 		self.nation=nation
-		self.odometer=0;
+		self.odometer=0
 	def print_function(self):
 		long_name=(self.name + " driven for "+self.age + " years"+" from "+ self.nation)
 		print(long_name)
